@@ -1,0 +1,49 @@
+table {width:100%;height:200px;border-spacing:0;border-top:solid 1px #979797;font-family:NotoSansCJKkr-Light;font-size:13px;font-weight:300;color:#333333}
+tbody td {border-bottom:1px solid #cccccc}
+tr td {text-align:center}
+tr td:first-child {padding-left:10px;font-size:11px;text-align:left}
+.viewmovieinfo {width:100%;height:100%}
+.moviesummary {position:relative}
+.summary-top {height:204px;background:radial-gradient(circle at 49% 11%, rgba(118, 49, 141, 1), #15105f),linear-gradient(#15105f, #15105f)}
+.summary-top .title {position:relative;top:35px;width:350px;height:30px;margin:auto;font-family:NotoSansCJKkr-Light;font-size:24px;color:#ffffff;text-align:center;white-space:nowrap; line-height:1.25;letter-spacing:-1.5px;overflow:hidden; text-overflow:ellipsis}
+.starring {position:relative;top:38px;height:48px;font-family:NotoSansCJKkr-Light;font-size:12px;color:#ffffff;text-align:center}
+.summary-bottom {height:460px;background-color:#f9f9f9}
+.partition {height:5px;background-color:#e8e8e8}
+.middle-content {position:absolute;top:123px;width:84.5%;padding:0 7.7%}
+.middle-content .wrapper {width:100%}
+.first-content {position:relative;width:100%;height:223px;margin-bottom:5%;background-color:#ffffff;box-shadow:0 3px 30px 0 rgba(0, 0, 0, 0.1)}
+.title-image {display:block;height:200px;margin:auto;padding-top:11px}
+.second-content {position:relative;height:266px;padding:0 7.7%;background-color:#ffffff;box-shadow:0 3px 30px 0 rgba(0, 0, 0, 0.1);object-fit:contain}
+.second-content .title {top:20px;width:100%;height:30px;padding:10px;font-family:NotoSansCJKkr-DemiLight;font-size:17px;text-align:center}
+.second-content .viewtable_level {top:77px;width:100%}
+.viewtable_level th {height:40px;background-color:#eeeff3;border-bottom:1px solid #cccccc;font-size:11px;font-weight:300}
+.viewtable_level tr td:first-child {background-color:#eeeff3}
+.movierating {position:relative;height:200px;width:84.5%;padding:0 7.7%;border-bottom:solid 1px #afb0b0}
+.movierating .wrapper {position:relative;width:100%}
+.movierating .title {margin-top:16px;font-family:NotoSansCJKkr-Medium;font-size:17px;font-weight:500;color:#333333;line-height:1.41;letter-spacing:-1.5px}
+.rating-wrapper {position:absolute;top:37.5px;width:94.6%}
+.rating span {display:inline-block;width:105px;height:24px}
+.rating span:nth-child(1) {font-family:NotoSansCJKkr-Light;font-size:14px;font-weight:bolder;color:#333333}
+.rating span:nth-child(2) {width:30px;padding-left:4px;background-color:#ffffff;font-family:NotoSansCJKkr-Medium;font-size:14px}
+.rating .img {display:inline-block;vertical-align:middle}
+.rating .descript {height:24px;font-family:NotoSansCJKkr-Light;font-size:12px;color:#666666}
+.moviereview {width:84.5%;padding:0 7.7%}
+.moviereview .wrapper {position:relative;width:100%}
+.moviereview .title {margin-top:16px;font-family:NotoSansCJKkr-Medium;font-size:17px;font-weight:500;color:#333333;line-height:1.41;letter-spacing:-1.5px}
+.moviereview .content-wrapper {padding-top:16px}
+.moviereview .user-info {height:20.5px;padding-bottom:11.5px;font-family:NotoSansCJKkr-Light;font-size:14px;font-weight:300;color:#666666;letter-spacing:-0.8px}
+.user-info span {padding-right:8px}
+.moviereview .score {width:100%}
+.moviereview .score div {display:inline-block;width:32%;font-family:NotoSansCJKkr-DemiLight;font-size:14px;font-weight:300;font-style:normal;font-stretch:normal;color:#333333;text-align:left;line-height:normal;letter-spacing:-1.5px}
+.moviereview .score img {height:10px;margin-left:5px}
+.moviereview .note {top:130px;padding-bottom:20px;font-family:NotoSansCJKkr-Light;font-size:15px;font-weight:300;font-style:normal;font-stretch:normal;color:#333333;text-align:left;line-height:normal;letter-spacing:-0.6px}
+.moviereview .division {border-bottom:solid 1px #afb0b0}
+@media screen and (max-width:320px) {
+    .summary-top .starring {padding-top:10px}
+    .summary-top .title {width:272px}
+    .m-re-txt320 {display:none}
+}
+@media screen and (min-width:321px) {
+    .summary-top .starring {padding-top:16px;font-size:11.6px}
+}
+  
